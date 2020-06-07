@@ -36,6 +36,9 @@ composer update
 cd ~/code
 composer update
 
+# install dronekit python packages
+pip install mavproxy dronekit dronekit-sitl
+
 # run a fresh install of the migrations and seed them (if needed)
 cd /home/vagrant/code
 php artisan migrate # for first run
