@@ -14,15 +14,9 @@ After this, run `git clone https://github.com/illinoistech-itm/2020-team07f.git`
 
 Once this is done, extract if you used the ZIP method.
 
-## Create an SSH key
-
-This step may only be necessary on a Windows machine; testing on Debian (granted, with a non-related key already existing), this step was not necessary.
-
-Use the `ssh-keygen -t rsa -C "you@homestead"` command in Windows, or a similar command in OS X or Linux with the same `you@homestead` username, to generate a default SSH key. This is required to run the Homestead box.
-
 ## Run Vagrant
 
-Go to the `2020-team07f\code\amf_homestead` folder.
+Go to the `amf-web\code\amf_homestead` folder.
 
 Once this is done, run `vagrant up` from the `amf_homestead` directory and everything should be working properly. The after.sh script will run the necessary `composer update` and other commands. Using `vagrant ssh` **should** SSH you directly into the machine, but see the note below if it requires login credentials.
 
@@ -33,6 +27,12 @@ NOTE: For some reason, sometimes Homestead doesn't work properly and will requir
 The Laravel installation will be visible at [192.168.56.10](http://192.168.56.10) if everything has gone well, and the box should serve `code\amf\public` after Vagrant has fully booted. (This was formerly 192.168.10.10, but Vagrant threw errors when coming back for testing.)
 
 Keep in mind that sometimes, Homestead seems to do weird stuff about `apt-get update` and `apt-get upgrade`, so sometimes you will need to run these to get new packages after provisioning as needed.
+
+## Create an SSH key
+
+This step may only be necessary on a Windows machine; testing on Debian (granted, with a non-related key already existing), this step was not necessary.
+
+Use the `ssh-keygen -t rsa -C "you@homestead"` command in Windows, or a similar command in OS X or Linux with the same `you@homestead` username, to generate a default SSH key. This is required to run the Homestead box.
 
 ## Site Credentials
 
