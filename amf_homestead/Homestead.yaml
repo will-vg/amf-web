@@ -4,6 +4,8 @@ memory: 2048
 cpus: 2
 provider: virtualbox
 
+version: "9.5.1" # added to minimize (some of the) breaking
+
 authorize: ~/.ssh/id_rsa.pub
 
 keys:
