@@ -10,7 +10,7 @@ Most of these should be available in package managers for most operating systems
 
 ## Clone the git repository
 
-After this, run `git clone https://github.com/illinoistech-itm/2020-team07f.git` or download this repository as a ZIP file.
+After this, run `git clone https://github.com/will-vg/amf-web.git` or download this repository as a ZIP file.
 
 Once this is done, extract if you used the ZIP method.
 
@@ -93,7 +93,7 @@ And:
 $ apt list --installed
 ```
 
-To test Laravel Webpage use: [http://192.168.10.10/](http://192.168.10.10/)
+To test Laravel Webpage use: [http://192.168.56.10/](http://192.168.56.10/)
 
 ![screenshot](../images/3.PNG "pic1")
 
