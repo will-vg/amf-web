@@ -12,13 +12,13 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: .\code\amf
+    - map: ./code/amf
       to: /home/vagrant/code
 
-    - map: ..\antenna
+    - map: ../antenna
       to: /home/vagrant/antenna
 
-    - map: ..\server
+    - map: ../server
       to: /home/vagrant/server
 
 sites:

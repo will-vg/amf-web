@@ -45,4 +45,5 @@ php artisan migrate # for first run
 php artisan migrate:fresh --seed
 
 cd /vagrant
+chmod +x ./ubuntu_sim_nuttx.sh
 ./ubuntu_sim_nuttx.sh
