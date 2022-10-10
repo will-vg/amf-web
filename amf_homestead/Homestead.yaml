@@ -1,7 +1,7 @@
 ---
 ip: "192.168.56.10"
-memory: 2048
-cpus: 2
+memory: 3072
+cpus: 4
 provider: virtualbox
 
 version: "9.5.1" # added to minimize (some of the) breaking
